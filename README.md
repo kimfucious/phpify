@@ -10,7 +10,7 @@ Amazingly, PHP is, to-date, the 4th most popular programming language in the wor
 
 Doing this, I was very happy to remember that PHP has **great** documentation.  And it's really hard *not* to find a solution to whatever problem you come across on Uncle Google.
 
-I intentionally did not spend a lot of time on the UI, it's just a [Bootswatch](https://bootswatch.com/slate/) take on Bootstrap 4.
+I intentionally did not spend a lot of time on the UI, it's just a [Bootswatch](https://bootswatch.com/slate/) take on Bootstrap 4.  There's very minimal CSS on top of that.
 
 Also, there's zero JavaScript by design.
 
