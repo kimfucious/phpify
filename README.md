@@ -4,7 +4,7 @@ A live demo of this codebase can be found at http://phpify.abts.io.
 
 I made this to remind myself that PHP is not WordPress and that I've forgotten more PHP than I remember.
 
-Amazingly, PHP is to-date the 4th most popular programming language in the world!
+Amazingly, PHP is, to-date, the 4th most popular programming language in the world!
 
 ![NyanCat](https://media.giphy.com/media/Rm9RzjSAfXm4o/giphy.gif)
 
