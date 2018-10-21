@@ -39,4 +39,14 @@ When the party's over you can run:
 docker-compose down
 ```
 
+## Exercises
+
+1. Anagrams:  Tests whether or not two strings are anagrams of one another
+2. Capitalize:  Capitalizes the first word in a given string
+3. Fibonacci: Uses recursion with a memoization to get past that pesky O(2^n) performance bagaboo
+4. MaxChar:  Finds the most used character in a string
+5. Palindrome:  Checks whether or not a given string is a palindrome
+6. Reverse Integer:  Reverses an integer as long as it's not too big
+7. Vowels: Counts all the vowels in a given string
+
 Life is good.  Enjoy!
