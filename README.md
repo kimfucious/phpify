@@ -30,6 +30,7 @@ git clone https://github.com/kimfucious/phpify.git
 ```shell
 docker-compose up
 ```
+3.  Open your browser to http://localhost
 
 When the party's over you can run:
 ```shell
