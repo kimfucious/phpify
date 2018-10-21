@@ -2,11 +2,13 @@
 
 A live demo of this codebase can be found at http://phpify.abts.io.
 
-I made this to remind myself that PHP is not WordPress.  
+I made this to remind myself that PHP is not WordPress; 'nuff said.
 
-Amazingly, it's the 4th most popular programming language in the world.
+Amazingly, PHP is to-date the 4th most popular programming language in the world.
 
-PHP has **great** documentation.  And it's really hard *not* to find a solution to whatever problem you come across on Uncle Google.
+![NyanCat](https://media.giphy.com/media/Rm9RzjSAfXm4o/giphy.gif)
+
+Doing this, I am reminded that PHP has **great** documentation.  And it's really hard *not* to find a solution to whatever problem you come across on Uncle Google.
 
 I intentionally did not spend a lot of time on the UI, it's just a [Bootswatch](https://bootswatch.com/slate/) take on Bootstrap 4.
 
