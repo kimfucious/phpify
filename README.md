@@ -4,7 +4,7 @@ A live demo of this codebase can be found at http://phpify.abts.io.
 
 I made this to remind myself that PHP is not WordPress and that I've forgotten more PHP than I remember.
 
-Amazingly, PHP is to-date the 4th most popular programming language in the world.
+Amazingly, PHP is to-date the 4th most popular programming language in the world!
 
 ![NyanCat](https://media.giphy.com/media/Rm9RzjSAfXm4o/giphy.gif)
 
@@ -15,6 +15,8 @@ I intentionally did not spend a lot of time on the UI, it's just a [Bootswatch](
 Also, there's zero JavaScript by design.
 
 Normally, I'd write a bunch of test cases, and use those as I have in other coding exercise project, but I have completely forgotten how to PHPUnit works.  I may come back around and fill in the blanks.
+
+More challenges to come!
 
 ## Usage
 
