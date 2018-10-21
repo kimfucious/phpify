@@ -14,7 +14,7 @@ I intentionally did not spend a lot of time on the UI, it's just a [Bootswatch](
 
 Also, there's zero JavaScript by design.
 
-Normally, I'd write a bunch of test cases, and use those as I have in other coding exercise projects, but I have completely forgotten how to PHPUnit works.  I may come back around and fill in the blanks.
+Normally, I'd write a bunch of test cases, and use those as I have in other coding exercise projects, but I have completely forgotten how PHPUnit works.  I may come back around and fill in the blanks.
 
 More challenges to come!
 
