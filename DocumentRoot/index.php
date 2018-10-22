@@ -47,6 +47,9 @@ $_SESSION["page"] = "";
       <a href="reverseint.php" class="list-group-item list-group-item-action">
         Reverse Integer
       </a>
+      <a href="sorting.php" class="list-group-item list-group-item-action">
+        Sorting
+      </a>
       <a href="vowels.php" class="list-group-item list-group-item-action">
         Vowels
       </a>
