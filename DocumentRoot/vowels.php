@@ -49,7 +49,7 @@ if (filter_has_var(INPUT_POST, "submit")) {
     $str1 = cleanString($_POST["string1"]);
     if (!empty($str1)) {
         preg_match_all("/[aeiou]/im", $str1, $matches, PREG_SET_ORDER, 0);
-        $vowels = sizeof($matches);
+        $vowels = count($matches);
         if ($vowels > 0) {
             $msg = ($vowels === 1)
             ? "There is " . $vowels . " vowel in the above text."

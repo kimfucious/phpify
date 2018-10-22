@@ -129,7 +129,7 @@ if (filter_has_var(INPUT_POST, "submit")) {
                                 align-items-center">
                       <code><?php print_r($child)?></code>&nbsp;
                       <span class="badge badge-light">
-                        <?php echo sizeof($child) ?>
+                        <?php echo count($child) ?>
                       </span>
                     </li>
                 <?php endforeach;?>
