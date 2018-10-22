@@ -20,7 +20,7 @@ More challenges to come!
 
 ## Usage
 
-This repo is "Dockerized" in that you can clone it and launch the whole kit and kaboodle without having to install Apache or PHP on your local machine:
+This repo is "Dockerized" in that you can clone it and launch the whole kit and kaboodle without having to install and configure Apache or PHP on your local machine:
 
 > :point_up:  You will need to have Docker on your local machine to do any of the below.  Go [here](https://www.docker.com), if you're not already good to go on that front.
 
@@ -43,6 +43,7 @@ docker-compose down
 
 1. Anagrams:  Tests whether or not two strings are anagrams of one another
 2. Capitalize:  Capitalizes the first word in a given string
+2. Chunk:  Breaks a given array into smaller arrays with a given chunk size 
 3. Fibonacci: Uses recursion with a memoization wrapper to get past that pesky O(2^n) performance bagaboo
 4. MaxChar:  Finds the most used character in a string
 5. Palindrome:  Checks whether or not a given string is a palindrome
