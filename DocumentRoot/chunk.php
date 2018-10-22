@@ -74,7 +74,7 @@ if (filter_has_var(INPUT_POST, "submit")) {
         value=
         "<?php echo isset($_POST["string1"]) ? $str : "" ?>"
       />
-      <div class="<?php echo $feedbackClass ?>"><?php echo $fieldMessage ?></div>
+      <div class="<?php echo $feedbackClass ?>"><?php echo $fieldMessage ?>
         <?php if (!$hideHelperText): ?>
           <small
           class="form-text text-muted">
@@ -82,6 +82,7 @@ if (filter_has_var(INPUT_POST, "submit")) {
           The square brackets are optional.
           </small>
         <?php endif;?>
+      </div>
     </div>
     <div class="form-group <?php echo $formGroupClass ?>">
       <label
@@ -125,7 +126,7 @@ if (filter_has_var(INPUT_POST, "submit")) {
                 <?php foreach ($arr as $child): ?>
                     <li class= "list-group-item d-flex justify-content-center
                                 align-items-center">
-                      <?php print_r($child)?>&nbsp;
+                      <code><?php print_r($child)?></code>&nbsp;
                       <span class="badge badge-light">
                         <?php echo sizeof($child) ?>
                       </span>
