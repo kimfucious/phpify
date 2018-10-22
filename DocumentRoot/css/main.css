@@ -2,15 +2,18 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
-  margin-bottom: 60px; /* Margin bottom by footer height */
+  margin-bottom: 36px; /* Margin bottom by footer height */
 }
+
 input:focus {
   color: #aaa !important;
 }
+
 .footer {
   position: absolute;
-  bottom: -5;
+  bottom: 0;
   width: 100%;
   height: 36px;
   line-height: 36px;
