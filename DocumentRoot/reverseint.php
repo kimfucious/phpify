@@ -91,7 +91,7 @@ if (array_key_exists("reset", $_POST)) {
         style="min-width: 300px;"
         >
     <div class="form-group <?php echo $formGroupClass ?>">
-      <label class="form-control-label text-info" for="String 1">
+      <label class="form-control-label text-info" for="string1">
         Integer to be reversed
       </label>
       <input

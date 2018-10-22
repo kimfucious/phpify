@@ -66,7 +66,7 @@ if (filter_has_var(INPUT_POST, "submit")) {
         style="min-width: 300px;"
         >
     <div class="form-group <?php echo $formGroupClass ?>">
-      <label class="form-control-label text-info" for="String 1">Potential Palindrome</label>
+      <label class="form-control-label text-info" for="string1">Potential Palindrome</label>
       <input
         class="form-control transparent-input <?php echo $formFieldClass ?>"
         type="text"

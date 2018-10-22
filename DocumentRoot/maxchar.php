@@ -65,7 +65,7 @@ if (filter_has_var(INPUT_POST, "submit")) {
         style="min-width: 300px;"
         >
     <div class="form-group <?php echo $formGroupClass ?>">
-      <label class="form-control-label text-info" for="String 1">Chars</label>
+      <label class="form-control-label text-info" for="string1">Chars</label>
       <input
         class="form-control transparent-input <?php echo $formFieldClass ?>"
         type="text"

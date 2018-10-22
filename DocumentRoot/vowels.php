@@ -78,7 +78,7 @@ if (filter_has_var(INPUT_POST, "submit")) {
     <div class="form-group <?php echo $formGroupClass ?>">
       <label
         class="form-control-label text-info"
-        for="String 1">
+        for="string1">
         Gimme 'dem Vowels
       </label>
       <input
@@ -90,7 +90,7 @@ if (filter_has_var(INPUT_POST, "submit")) {
         value=
         "<?php echo isset($_POST["string1"]) ? quasiClean($_POST["string1"]) : "" ?>"
       />
-      <div class="<?php echo $feedbackClass ?>"><?php echo $fieldMessage ?></div>
+      <div class="<?php echo $feedbackClass ?>"><?php echo $fieldMessage ?>
         <?php if (!$hideHelperText): ?>
           <small
           class="form-text text-muted">

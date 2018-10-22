@@ -48,7 +48,7 @@ if (filter_has_var(INPUT_POST, "submit")) {
     <div class="form-group <?php echo $formGroupClass ?>">
       <label
         class="form-control-label text-info"
-        for="String 1">
+        for="string1">
         Words to capitalize
       </label>
       <input
