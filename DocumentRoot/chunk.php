@@ -40,7 +40,8 @@ function chunkArray($str, $chunkSize)
 }
 
 if (filter_has_var(INPUT_POST, "submit")) {
-    $str = preg_replace("/[^0-9,]/", "", $_POST["string1"]);
+    $regex = "/^,|[^0-9,]|,{2,}|,$/";
+    $str = preg_replace($regex, "", $_POST["string1"]);
     $chunkSize = preg_replace("/[\D]/", "", $_POST["string2"]);
     if (!empty($chunkSize) && !empty($str)) {
         $arr = chunkArray($str, $chunkSize);
