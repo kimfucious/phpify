@@ -29,7 +29,8 @@ require_once "includes/common_functions.php";
 /**
  * Memoization function, using a cache to avoid O(2^n) performance issues.
  *
- * @param func $fn wraps the fib function
+ * @param func $fn is received, and its args are stored in a cache so as to
+ * reduce the number of function calls caused by the nature of recursion.
  *
  * @return int
  */
@@ -45,6 +46,17 @@ $memoize = function ($fn) {
         return $cache[$key];
     };
 };
+/**
+ * Fibonacci function.
+ *
+ * @param int $int is received and used in the well known pattern.
+ * @param func &$fib is passed as a higher order function.
+ * What's unique here is that $fib's innards are $memoize which takes
+ * an anonymous function, which takes $fib, itself, as a argument.
+ * It's like Fibonacci inception.
+ *
+ * @return int
+ */
 $fib = $memoize(
     function ($int) use (&$fib) {
         return ($int < 2) ? $int : $fib($int - 1) + $fib($int - 2);
