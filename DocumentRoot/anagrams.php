@@ -91,7 +91,7 @@ if (filter_has_var(INPUT_POST, "submit")) {
         <?php if (!$hideHelperText): ?>
           <small
           class="form-text text-muted">
-          Enter some text here.  Anything not text will be ignored.
+          Enter some text here.
           </small>
         <?php endif;?>
     </div>
@@ -113,7 +113,7 @@ if (filter_has_var(INPUT_POST, "submit")) {
         <?php if (!$hideHelperText): ?>
           <small
           class="form-text text-muted">
-          Enter some text here.  Anything not text will be ignored.
+          Anything not text will be ignored.
           </small>
         <?php endif;?>
     </div>
