@@ -25,16 +25,16 @@ require_once "includes/common_functions.php";
  */
 function bubbleSort($arr)
 {
-    for ($i = 0; $i < sizeof($arr); $i++) {
-        for ($j = 0; $j < (sizeof($arr) - $i - 1); $j++) {
+    for ($i = 0; $i < count($arr); $i++) {
+        for ($j = 0; $j < ((count($arr) - $i) - 1); $j++) {
             if ($arr[$j] > $arr[$j + 1]) {
-                $lesser = $arr[$j + 1];
-                $arr[$j + 1] = $arr[$j];
-                $arr[$j] = $lesser;
+                $bigger = $arr[$j];
+                $arr[$j] = $arr[$j + 1];
+                $arr[$j + 1] = $bigger;
             }
         }
-        return $arr;
     }
+    return $arr;
 }
 
 /**
@@ -46,10 +46,10 @@ function bubbleSort($arr)
  */
 function selectionSort($arr)
 {
-    for ($i = 0; $i < sizeof($arr); $i++) {
+    for ($i = 0; $i < count($arr); $i++) {
         $indexOfMin = $i;
 
-        for ($j = $i + 1; $j < sizeof($arr); $j++) {
+        for ($j = $i + 1; $j < count($arr); $j++) {
             if ($arr[$j] < $arr[$indexOfMin]) {
                 $indexOfMin = $j;
             }
@@ -73,11 +73,11 @@ function selectionSort($arr)
  */
 function mergeSort($arr)
 {
-    if (sizeof($arr) === 1) {
+    if (count($arr) === 1) {
         return $arr;
     }
 
-    $center = floor(sizeof($arr) / 2);
+    $center = floor(count($arr) / 2);
     $left = array_slice($arr, 0, $center);
     $right = array_slice($arr, $center);
 
@@ -96,7 +96,7 @@ function merge($left, $right)
 {
     $results = [];
 
-    while (sizeof($left) > 0 && sizeof($right) > 0) {
+    while (count($left) > 0 && count($right) > 0) {
         if ($left[0] < $right[0]) {
             array_push($results, array_shift($left));
         } else {
