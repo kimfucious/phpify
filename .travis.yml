@@ -1,8 +1,14 @@
-deploy:
-  provider: gae
-  keyfile: "./phpify-google-service-account.json"
-  project: phpify-eb9fd
+sudo: false
+language: php
 before_install:
   - openssl aes-256-cbc -K $encrypted_8cc761e8c8de_key -iv $encrypted_8cc761e8c8de_iv
     -in phpify-google-service-account.json.enc -out phpify-google-service-account.json
     -d
+deploy:
+  provider: gae
+  config: "/DocumentRoot/app.yml"
+  skip_cleanup: true
+  keyfile: "./phpify-google-service-account.json"
+  project: phpify-eb9fd
+  on:
+    branch: master
