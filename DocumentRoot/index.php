@@ -17,7 +17,7 @@ $_SESSION["page"] = "";
 ?>
 <?php require_once "includes/header.php"?>
 <?php require_once "includes/breadcrumbs.php"?>
-<div class="container-fluid">
+<div class="container-fluid mb-3">
   <div class="jumbotron text-center">
     <h1 class="display-3">PHPify</h1>
     <p class="lead">Classic coding exercises done in PHP</p>
@@ -44,9 +44,9 @@ $_SESSION["page"] = "";
       <a href="palindrome.php" class="list-group-item list-group-item-action">
         Palindrome
       </a>
-      <a href="queuefrontend.php" class="list-group-item list-group-item-action">
+      <!-- <a href="queuefrontend.php" class="list-group-item list-group-item-action">
         Queue
-      </a>
+      </a> -->
       <a href="reverseint.php" class="list-group-item list-group-item-action">
         Reverse Integer
       </a>
