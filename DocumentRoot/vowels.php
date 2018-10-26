@@ -2,7 +2,7 @@
 /**
  * Simple exercise to demonstrate how to detect vowels in a string
  *
- * PHP version 7.2
+ * PHP Version 5.6
  *
  * Directions
  * Write a function that returns the number of vowels used in a string.

@@ -2,7 +2,7 @@
 /**
  *  An exercise to demonstrate how to chunk an array
  *
- * PHP version 7.2
+ * PHP Version 5.6
  *
  * --- Directions
  * Given an array and chunk size, divide the array into many subarrays

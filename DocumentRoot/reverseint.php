@@ -2,7 +2,7 @@
 /**
  * Simple exercise to demonstrate how to reverse an integer, all things considered.
  *
- * PHP version 7.2
+ * PHP Version 5.6
  *
  * - Directions
  * Given an integer, return an integer that is the reverse ordering of numbers.

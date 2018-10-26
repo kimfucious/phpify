@@ -2,7 +2,7 @@
 /**
  * Simple exercise to demonstrate how find the most used character in a string
  *
- * PHP version 7.2
+ * PHP Version 5.6
  *
  * --- Directions
  * Given a string, return the character that is most

@@ -3,7 +3,7 @@
  *  An exercise to different sorting methods:
  *  bubble sort, selection sort, and merge sort
  *
- * PHP version 7.2
+ * PHP Version 5.6
  *
  * @category Education
  * @package  Sortify

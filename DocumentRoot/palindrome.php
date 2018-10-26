@@ -2,7 +2,7 @@
 /**
  * Simple exercise to demonstrate how to detect palindromes with PHP
  *
- * PHP version 7.2
+ * PHP Version 5.6
  *
  * Directions
  * Given a string, return true if the string is a palindrome

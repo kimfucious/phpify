@@ -2,7 +2,7 @@
 /**
  * Simple exercise to demonstrate how to detect anagrams with PHP
  *
- * PHP version 7.2
+ * PHP Version 5.6
  *
  * Directions
  * Check to see if two provided strings are anagrams of eachother.

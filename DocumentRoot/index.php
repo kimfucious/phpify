@@ -2,7 +2,7 @@
 /**
  * A collection of coding exercises done in PHP
  *
- * PHP version 7.2
+ * PHP Version 5.6
  *
  * @category Education
  * @package  PHPify
@@ -43,6 +43,9 @@ $_SESSION["page"] = "";
       </a>
       <a href="palindrome.php" class="list-group-item list-group-item-action">
         Palindrome
+      </a>
+      <a href="queuefrontend.php" class="list-group-item list-group-item-action">
+        Queue
       </a>
       <a href="reverseint.php" class="list-group-item list-group-item-action">
         Reverse Integer

@@ -2,7 +2,7 @@
 /**
  * Simple exercise to demonstrate how to capitalize all words in a string.
  *
- * PHP version 7.2
+ * PHP Version 5.6
  *
  *  Directions
  *  Write a function that accepts a string. The function should capitalize the

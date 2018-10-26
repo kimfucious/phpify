@@ -3,7 +3,7 @@
  *  A not-so-simple exercise to demonstrate how memoization using PHP
  *  to get the Nth entry from the fibonacci sequece using recursion
  *
- * PHP version 7.2
+ * PHP Version 5.6
  *
  * Directions
  * Print out the Nth entry in the fibonacci series.

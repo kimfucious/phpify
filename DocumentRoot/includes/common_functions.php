@@ -2,7 +2,7 @@
 /**
  * Common functions
  *
- * PHP version 7.2
+ * PHP Version 5.6
  *
  * @category Education
  * @package  PHPify
