@@ -1,6 +1,6 @@
 # PHPify
 
-A live demo of this codebase can be found at http://phpify.abts.io.
+A live demo of this codebase can be found at https://phpify-eb9fd.appspot.com.
 
 I made this to remind myself that PHP is not WordPress and that I've forgotten more PHP than I remember.
 
